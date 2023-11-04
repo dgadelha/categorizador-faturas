@@ -1,0 +1,59 @@
+- name: Educação
+  keywords:
+    - udemy
+    - alura
+    - caelum
+    - udacity
+    - coursera
+
+- name: Transporte
+  keywords:
+    - uber
+    - 99 pop
+    - cabify
+
+- name: Shopping
+  keywords:
+    - amazon
+    - americanas
+    - magazine luiza
+    - mercado livre
+    - casas bahia
+    - submarino
+    - shoptime
+    - shopee
+
+- name: Alimentação
+  keywords:
+    - ifood
+    - mc donalds
+
+- name: Mercado
+  keywords:
+    - supermercado
+    - hiperideal
+
+- name: Casa
+  keywords:
+    - flexpag
+    - coelba
+    - conta vivo
+
+- name: Farmácia
+  keywords:
+    - drogasil
+    - drogaria
+
+- name: Entretenimento
+  keywords:
+    - steam games
+
+- name: Viagens
+  keywords:
+    - gol linhas
+
+- name: Cuidados Pessoais
+  keywords:
+    - salao
+    - cabeleireiro
+    - barbearia
