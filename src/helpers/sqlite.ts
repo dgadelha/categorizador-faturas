@@ -28,7 +28,7 @@ export async function exportToSqlite(transactions: Transaction[]) {
 		table.string('categoria').comment('Categoria da transação');
 	});
 
-	const batchSize = 1000;
+	const batchSize = 100;
 
 	for (let i = 0; i < transactions.length; i += batchSize) {
 		const batch = transactions.slice(i, i + batchSize);
@@ -36,6 +36,5 @@ export async function exportToSqlite(transactions: Transaction[]) {
 		await knex('transactions').insert(batch);
 	}
 
-	await knex('transactions').insert(transactions);
 	await knex.destroy();
 }
